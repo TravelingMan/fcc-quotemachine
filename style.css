@@ -1,0 +1,82 @@
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.quote-box {
+    padding-top: 20px;
+    width: 70px;
+    height: 100px;
+    float: left;
+}
+
+.quote-contents {
+    width: 530px;
+    height: 200px;
+    float: left;
+}
+
+.quote-container {
+    margin: 2% auto auto auto;
+    padding: 15px;
+    background-color: white;
+    max-width: 600px;
+    height: 280px;
+    border-radius: 7px;
+}
+
+.actions {
+    clear: left;
+}
+
+.btn {
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-top: 12px;
+    height: 34px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    background-color: lime;
+    float: right;
+    display: inline;
+}
+
+.twitter {
+    cursor: pointer;
+    border-radius: 5px;
+    height: 46px;
+    display: inline;
+    float: left;
+    width: 46px;
+    background-color: #33ccff;
+    color: white;
+}
+
+.thanks {
+    clear: left;
+    color: gray;
+    font-size: 0.8em;
+    max-width: 400px;
+    margin-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#quote-joke {
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+#quote-id {
+    color: #696969;
+    font-style: italic;
+    font-size: 0.5em;
+}

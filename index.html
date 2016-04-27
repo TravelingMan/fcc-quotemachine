@@ -1,0 +1,39 @@
+<!--
+User Story: I can click a button to show me a new random quote.
+
+User Story: I can press a button to tweet out a quote.
+-->
+
+<meta charset="UTF-8">
+<title>RandomQuote Machine</title>
+<script src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<script src="script.js"></script>
+
+<div class="container">
+    <h1>QuoteMachine</h1>
+    <div class="quote-container">
+        <div class="quote-box">
+            <i class="fa fa-quote-left fa-3x fa-pull-left" aria-hidden="true"></i>
+            <p id="quote-id"></p>
+        </div>
+        <div class="quote-contents">
+            <p id="quote-joke"></p>
+            <p id="quote-category"></p>
+        </div>
+        <div class="actions">
+            <div class="btn" role="button" onclick="getRandomQuote()">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i> More Wisdom
+            </div>
+            <div class="twitter" onclick="tweetThis()">
+                <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="thanks">
+            <p>Special thanks to the <a href="http://www.icndb.com/">Internet Chuck Norris Database</a> for the cool
+                API!</p>
+        </div>
+    </div>
+</div>
